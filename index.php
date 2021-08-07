@@ -52,7 +52,50 @@
         </div>
     </header>
 
+    <div class="first_slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">    
+                <div class="swiper-slide" style="background: url(/images/slide/1.webp) no-repeat;"></div>
+                <div class="swiper-slide" style="background: url(/images/slide/2.jpg) no-repeat;"></div>
+                <div class="swiper-slide" style="background: url(/images/slide/3.webp) no-repeat;"></div>
+                <div class="swiper-slide" style="background: url(/images/slide/4.webp) no-repeat;"></div>
+            </div>
+        </div>
+        <div class="swiper-controller">
+            <div class="first_slider-button _prev">&#10095;</div>
+            <div class="first_slider-button _next">&#10095;</div>
+        </div>
+    </div>
+
+    <div class="second_slide">
+        <div class="container">
+            <h1 class="title">О компании</h1>
+            <div class="texts">
+                <div class="lt">
+                    <p>Компания ГПМ-Центр является официальным дилером компании Zoomlion.<br><br>
+Компания Zoomlion Heavy Industry Science & Technology Co., Ltd. была основана в 1992 году. Главные направления деятельности – это разработка и производство тяжелых высокотехнологичных машин в сфере строительной и сельскохозяйственной техники. Имея более чем 20-летний опыт внедрения инноваций и совершенствования производства, компания в настоящее время является международным холдингом, выпускающим 10 категорий по 56 видов продукции, что составляет примерно 600 выдающихся видов техники.</p>
+                </div>
+                <div class="rt">
+                    <p>Нашей главной целью является качественная поддержка клиента на всех этапах сотрудничества при подборе техники, ее поставке и обслуживании.</p>
+                    <p>Вся поставляемая техника сертифицируется по российским стандартам и имеет необходимую разрешительную документацию ЕАС.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="third_slide">
+        <div class="container">
+            <h1 class="title">Каталог продукции</h1>
+        </div>
+    </div>
+
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/js/common.js"></script>
+    <script src="/js/first.js"></script>
 </body>
 </html>

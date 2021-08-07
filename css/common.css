@@ -7,6 +7,7 @@
 
 body {
   margin: 0 auto;
+  height: 100%;
 }
 
 .container {
@@ -189,6 +190,7 @@ header .link-line a ul {
   padding-right: 15px;
   margin-left: -15px;
   display: none;
+  z-index: 999999;
 }
 
 header .link-line a ul > li {
@@ -274,5 +276,110 @@ header .openMenu.active span.fl {
 header .openMenu.active span.tl {
   -webkit-transform: rotate(-45deg) translate(10px, -15px);
           transform: rotate(-45deg) translate(10px, -15px);
+}
+
+.first_slider {
+  position: relative !important;
+}
+
+.first_slider .swiper-container {
+  height: 100%;
+}
+
+.first_slider .swiper-slide {
+  height: 100%;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.first_slider .swiper {
+  height: 100%;
+}
+
+.first_slider .swiper-controller {
+  position: absolute;
+  right: 30px;
+  z-index: 9;
+  top: calc(100% - 128px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first_slider .swiper-controller .first_slider-button {
+  cursor: pointer;
+  width: 81px;
+  height: 65px;
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 38px;
+  line-height: 65px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.first_slider .swiper-controller ._prev {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+h1.title {
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #000;
+  margin-bottom: 60px;
+}
+
+.second_slide {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.second_slide .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second_slide .texts .lt {
+  width: 60%;
+}
+
+.second_slide .texts .rt {
+  width: 30%;
+  margin-left: auto;
+}
+
+.second_slide .texts p {
+  margin-bottom: 50px;
+  font-size: 22px;
+  line-height: 1.42;
+}
+
+@media (max-width: 996px) {
+  .second_slide .texts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .second_slide .texts .lt {
+    width: 100%;
+  }
+  .second_slide .texts .rt {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.third_slide {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #FBFBFB;
 }
 /*# sourceMappingURL=common.css.map */
