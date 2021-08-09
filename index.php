@@ -86,6 +86,47 @@
     <div class="third_slide">
         <div class="container">
             <h1 class="title">Каталог продукции</h1>
+            <div class="images">
+                <div class="left_images">
+                    <div class="third_slide-image img1">
+                        <span>Ножничные подъемники</span>
+                    </div>
+                </div>
+                <div class="right_images">
+                    <div class="third_slide-image img2">
+                        <span>Автокраны zoomlion</span>
+                    </div>
+                    <div class="third_slide-image img3">
+                        <span>Экскаваторы</span>
+                    </div>
+                </div>
+            </div>
+            <div class="images">
+                <div class="left_images">
+                    <div class="third_slide-image img4">
+                        <span>Автокраны Zoomlion-МАЗ</span>
+                    </div>
+                    <div class="third_slide-image img5">
+                        <span>погрузчик для палет</span>
+                    </div>
+                    <div class="double_images">
+                        <div class="third_slide-image img6">
+                            <span>Электроштабелеры</span>
+                        </div>
+                        <div class="third_slide-image img7">
+                            <span>Вилочные погрузчики</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_images">
+                    <div class="third_slide-image img8">
+                        <span>коленчатые подъемники</span>
+                    </div>
+                    <div class="third_slide-image img9">
+                        <span>телескопические подъемники</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
