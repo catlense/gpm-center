@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
+    overflow: hidden;
 }
 
 header {
@@ -87,7 +88,7 @@ header {
             background: white;
             overflow: hidden;
             &.active {
-                height: 320px;
+                height: 320px !important;
                 border-bottom: 1px solid #eee;
             }
         }
@@ -98,6 +99,7 @@ header {
             height: 63px;
             @media(max-width: 790px) {
                 flex-direction: column;
+                height: 320px;
             }
         }
         a {
@@ -249,6 +251,9 @@ h1.title {
     font-size: 42px;
     color: #000;
     margin-bottom: 60px;
+    @media(max-width: 360px) {
+        font-size: 32px;
+    }
 }
 
 .second_slide {
@@ -288,11 +293,17 @@ h1.title {
     background: #FBFBFB;
     .images {
         display: flex;
+        @media(max-width: 1250px) {
+            flex-direction: column;
+        }
     }
     .right_images {
         display: flex;
         flex-direction: column;
         margin-left: auto;
+        @media(max-width: 1250px) {
+            margin-left: 0;
+        }
     }
     .left_images {
         display: flex;
@@ -303,11 +314,16 @@ h1.title {
         justify-content: space-between;
     }
     .third_slide-image {
-        display: inline-block;
         position: relative;
         background-size: 100%;
         cursor: pointer;
         user-select: none;
+        @media(max-width: 1250px) {
+            width: 100% !important;
+            background-size: cover !important;
+            background-position: center !important;
+            margin-left: 0 !important;
+        }
         &.img1 {
             width: 490px;
             height: 840px;
@@ -380,6 +396,133 @@ h1.title {
             line-height: 80px;
             top: calc(100% - 80px);
             font-weight: bold;
+            @media(max-width: 460px) {
+                font-size: 18px !important;
+            }
+            @media(max-width: 370px) {
+                font-size: 14px !important;
+            }
+        }
+    }
+    @media(max-width: 1250px) {
+        .double_images {
+            .third_slide-image {
+                width: 48% !important;
+            }
+        }
+    }
+    @media(max-width: 733px) {
+        .double_images {
+            flex-direction: column !important;
+            .third_slide-image {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+.fourth_slide {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    .swiper-slide {
+        width: unset !important;
+        margin-right: 30px;
+    }
+    h1.title {
+        display: flex;
+        @media(max-width: 360px) {
+            flex-direction: column;
+        }
+        .navCertificate {
+            margin-left: auto;
+            align-items: center;
+            display: flex;
+            user-select: none;
+            @media(max-width: 360px) {
+                margin-left: 0 auto;
+            }
+            .certificate {
+                line-height: 51px;
+                align-items: center;
+                margin-left: 30px;
+                font-size: 32px;
+                cursor: pointer;
+                &._prev {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+}
+
+.swiper-container {
+    overflow: hidden;
+}
+
+.swiper-button-disabled {
+    opacity: .5;
+}
+
+footer {
+    background: #2d2d2d;
+    min-height: 132px;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    .logo {
+        width: 213px;
+        height: 61px;
+        background: url(/images/logo_footer.svg) no-repeat;
+        background-size: cover;
+        @media(max-width: 1200px) {
+            margin: 0 auto;
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        @media(max-width: 1200px) {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            >div {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .footer-column {
+        color: white;
+        fill: white;
+        p {
+            font-size: 20px;
+            line-height: 2.08;
+            font-weight: lighter;
+            letter-spacing: -1%;
+            margin-top: 16px;
+        }
+        a {
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: lighter;
+            display: block;
+            margin-bottom: 13px;
+            &:hover {
+                text-decoration: underline;
+            }
+            &.title {
+                font-weight: 500;
+            }
+        }
+        &._second {
+            display: flex;
+            @media(max-width: 580px) {
+                flex-direction: column;
+            }
+            .second-col {
+                margin-left: 20px;
+            }
         }
     }
 }

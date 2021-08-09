@@ -10,3 +10,12 @@ let firstCarousel = new Swiper('.swiper-container', {
         prevEl: ".first_slider-button._prev"
     }
 })
+
+let certificateCarousel = new Swiper('.certificates', {
+    slidesPerView: "auto",
+    freeMode: true,
+    navigation: {
+        nextEl: ".certificate._next",
+        prevEl: ".certificate._prev"
+    }
+})
