@@ -12,7 +12,15 @@
     
     <?php include 'modules/header.php'; ?>
     <div class="product_container">
-        <div class="left_images"></div>
+        <div class="left_images">
+            <div class="swiper-container imageSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="texts">
             <h1>Дизельный погрузчик FD50Z</h1>
             <p class="description">
