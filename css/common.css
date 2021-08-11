@@ -893,4 +893,71 @@ footer .footer-column._second .second-col {
   font-size: 16px;
   margin-top: 20px;
 }
+
+.product_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.product_container .left_images {
+  width: 33%;
+}
+
+.product_container .texts {
+  width: 65%;
+  margin-left: auto;
+}
+
+.product_container .texts h1 {
+  color: #363840;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.product_container .texts p {
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+table.params {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #323232;
+}
+
+table.params tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+table.params tr td {
+  padding: 20px;
+  font-weight: lighter;
+}
+
+table.params tr td:last-child {
+  margin-left: auto;
+  text-align: center;
+}
+
+table.params tr:first-child {
+  background: #a8c83d !important;
+  font-weight: 500;
+}
+
+table.params tr:nth-child(odd) {
+  background: #eee;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
 /*# sourceMappingURL=common.css.map */
