@@ -3,6 +3,7 @@
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+    outline: none;
 }
 
 body {
@@ -526,6 +527,118 @@ footer {
             .second-col {
                 margin-left: 20px;
             }
+        }
+    }
+}
+
+.breadcrumb {
+    margin-top: 20px;
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        &:first-child {
+            font-weight: lighter;
+            color: rgba(0, 0, 0, 0.5);
+            &::before {
+                content: "";
+            }
+        }
+        &::before {
+            content: ">";
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.filters {
+    margin-top: 38px;
+    width: 100%;
+    display: flex;
+    @media(max-width: 480px) {
+        flex-direction: column;
+    }
+    .search {
+        margin-right: 10px;
+        margin-left: auto;
+        display: flex;
+        max-width: 285px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        @media(max-width: 480px) {
+            margin-right: 0;
+            width: 100%;
+        }
+        input {
+            border: none;
+            height: 40px;
+            border-radius: 5px;
+            padding-left: 20px;
+            width: calc(100% - 60px);
+            font-size: 16px;
+        }
+        button {
+            border: none;
+            width: 40px;
+            border-radius: 0px 5px 5px 0px;
+            margin-left: auto;
+            cursor: pointer;
+            border-left: 1px solid rgba(0, 0, 0, 0.5);
+        }
+    }
+    .filter {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        @media(max-width: 480px) {
+            margin-top: 20px;
+        }
+        p {
+            color: rgba(0, 0, 0, 0.3);
+            margin-right: 5px;
+            margin-left: 10px;
+        }
+        select {
+            font-size: 16px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            max-width: 150px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.products {
+    margin-top: 86px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .product {
+        max-width: 376px;
+        margin-bottom: 80px;
+        img {
+            width: 100%;
+        }
+        &.none {
+            img {
+                opacity: .5;
+            }
+        }
+        p.title {
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        p.description,
+        p.option {
+            line-height: 1.42;
+            font-size: 16px;
+            margin-top: 20px;
         }
     }
 }
