@@ -19,13 +19,13 @@
                         <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
+                        <img src="https://static.tildacdn.com/tild6530-3830-4063-b036-663762333365/Screenshot_6.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
+                        <img src="https://static.tildacdn.com/tild3362-6434-4633-b838-626162316231/Screenshot_5.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
+                        <img src="https://static.tildacdn.com/tild6436-3731-4236-a439-636634373362/Screenshot_4.jpg" alt="">
                     </div>
                 </div>
             </div>

@@ -752,3 +752,55 @@
             right: 0;
         }
     }
+    
+    .news {
+        max-width: 760px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .newsList {
+            margin-top: 100px;
+            .newsBlock {
+                display: flex;
+                border-bottom: 1px solid rgba(0, 0, 0, .15);
+                padding-bottom: 30px;
+                cursor: pointer;
+                .img {
+                    width: 190px;
+                    height: 150px;
+                    margin-right: 40px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .text {
+                    p.title {
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                    p.description {
+                        font-size: 14px;
+                        margin-top: 8px;
+                    }
+                    p.date {
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-right: 15px;
+                        font-size: 10px;
+                        letter-spacing: 1px;
+                        color: rgba(0, 0, 0, .5);
+                        margin-top: 15px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        h1 {
+            font-weight: lighter;
+            font-size: 32px;
+            text-align: center;
+        }
+    }
