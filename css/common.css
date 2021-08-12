@@ -903,6 +903,7 @@ img {
 
 .imageSwiper {
   height: 392px;
+  position: relative;
 }
 
 .imageSwiper .swiper-wrapper {
@@ -932,6 +933,7 @@ img {
 
 .product_container .left_images {
   width: 33%;
+  position: relative;
 }
 
 @media (max-width: 792px) {
@@ -1001,5 +1003,42 @@ table.params tr:nth-child(odd) {
   background: #eee;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
+}
+
+.controllers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: calc(100% - 30px);
+  left: auto;
+  right: auto;
+  margin-left: 15px;
+  top: 50%;
+}
+
+.controllers .next_slide,
+.controllers .prev_slide {
+  line-height: 27px;
+  font-size: 32px;
+  z-index: 9999;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.controllers .prev_slide {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.controllers .next_slide {
+  margin-left: auto;
+  right: 0;
 }
 /*# sourceMappingURL=common.css.map */

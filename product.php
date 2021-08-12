@@ -18,7 +18,20 @@
                     <div class="swiper-slide">
                         <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
                     </div>
+                    <div class="swiper-slide">
+                        <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg" alt="">
+                    </div>
                 </div>
+            </div>
+            <div class="controllers">
+                <div class="prev_slide">&#10095;</div>
+                <div class="next_slide">&#10095;</div>
             </div>
         </div>
         <div class="texts">
@@ -47,5 +60,6 @@
         </tr>
     </table>
     <?php include 'modules/footer.php'; ?>
+    <script src="/js/product.js"></script>
 </body>
 </html>
