@@ -18,11 +18,11 @@
                 <a href="/about">О компании</a>
                 <a href="#">Сертификаты</a>
                 <a href="/catalog">
-                    Каталог продукции
+                    <div header-link="/catalog">Каталог продукции</div>
                     <ul>
                         <li>Экскаваторы</li>
-                        <li class="more">Автокраны</li>
-                        <li class="more">Вилочные погрузчики</li>
+                        <li header-link="/catalog/avtokrany">Автокраны</li>
+                        <li>Вилочные погрузчики</li>
                         <li>Электроштабелеры</li>
                         <li>Погрузчики для палет</li>
                         <li class="more">

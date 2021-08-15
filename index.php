@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="right_images">
-                    <div class="third_slide-image img2">
+                    <div class="third_slide-image img2" onclick="window.location.href = '/catalog/avtokrany'">
                         <span>Автокраны zoomlion</span>
                     </div>
                     <div class="third_slide-image img3">

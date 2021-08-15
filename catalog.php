@@ -1,3 +1,4 @@
+<?php include 'modules/all_products.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,10 +13,26 @@
     
     <?php include 'modules/header.php'; ?>
 
+    <?php
+    $c = [];
+    foreach($categories as $category) {
+        if($category['link'] == $_GET['link']) {
+            $c = $category;
+        }
+    }
+
+    $p = [];
+    foreach($products as $product) {
+        if($product['category'] == $c['link'] || empty(trim($_GET['link']))) {
+            array_push($p, $product);
+        }
+    }
+    ?>
+
     <div class="container">
         <div class="breadcrumb">
             <a href="/">Главная</a>
-            <a href="/catalog/podemniki">Ножничные подъемники</a>
+            <a href="/catalog/podemniki"><?=$c['title'] ? $c['title'] : 'Каталог продукции';?></a>
         </div>
         <div class="filters">
             <div class="search">
@@ -33,70 +50,23 @@
         </div>
 
         <div class="products">
-            <div class="product none">
-                <img src="/images/catalog/catalog_placeholder.png" alt="">
-                <p class="title">Наименование модели продукции</p>
-                <p class="description">
-                    Питание - <b>Зарядное устройство</b><br>
-                    Грузоподьемность - <b>113 кг</b><br>
-                    Высота подъема - <b>5 800 мм</b><br>
-                    Номинальная мощность - <b>32 кВт</b><br>
-                    <b>Автоматическая коробка передач</b>
-                </p>
-                <p class="option">
-                    Опции:<br>
-                    Высота подъема - <b>4 500 мм</b><br>
-                    Высота подъема - <b>6 000 мм</b>
-                </p>
-            </div>
-            <div class="product">
-                <img src="/images/catalog/catalog_placeholder.png" alt="">
-                <p class="title">Наименование модели продукции</p>
-                <p class="description">
-                    Питание - <b>Зарядное устройство</b><br>
-                    Грузоподьемность - <b>113 кг</b><br>
-                    Высота подъема - <b>5 800 мм</b><br>
-                    Номинальная мощность - <b>32 кВт</b><br>
-                    <b>Автоматическая коробка передач</b>
-                </p>
-                <p class="option">
-                    Опции:<br>
-                    Высота подъема - <b>4 500 мм</b><br>
-                    Высота подъема - <b>6 000 мм</b>
-                </p>
-            </div>
-            <div class="product">
-                <img src="/images/catalog/catalog_placeholder.png" alt="">
-                <p class="title">Наименование модели продукции</p>
-                <p class="description">
-                    Питание - <b>Зарядное устройство</b><br>
-                    Грузоподьемность - <b>113 кг</b><br>
-                    Высота подъема - <b>5 800 мм</b><br>
-                    Номинальная мощность - <b>32 кВт</b><br>
-                    <b>Автоматическая коробка передач</b>
-                </p>
-                <p class="option">
-                    Опции:<br>
-                    Высота подъема - <b>4 500 мм</b><br>
-                    Высота подъема - <b>6 000 мм</b>
-                </p>
-            </div>
-            <div class="product">
-                <img src="/images/catalog/catalog_placeholder.png" alt="">
-                <p class="title">Наименование модели продукции</p>
-                <p class="description">
-                    Питание - <b>Зарядное устройство</b><br>
-                    Грузоподьемность - <b>113 кг</b><br>
-                    Высота подъема - <b>5 800 мм</b><br>
-                    Номинальная мощность - <b>32 кВт</b><br>
-                    <b>Автоматическая коробка передач</b>
-                </p>
-                <p class="option">
-                    Опции:<br>
-                    Высота подъема - <b>4 500 мм</b><br>
-                    Высота подъема - <b>6 000 мм</b>
-                </p>
-            </div>
+            <?php
+            
+            foreach($p as $product) {
+                $desc = '';
+                foreach($product['description'] as $key=>$value) {
+                    $desc .= "$key <b>$value</b><br>";
+                }
+                echo "
+                    <div class='product' onclick='window.location.href = `/product/".$product['link']."`;'>
+                        <img src='".$product['main_img']."' alt=''>
+                        <p class='title'>".$product['title']."</p>
+                        <p class='description'>$desc</p>
+                    </div>
+                ";
+            }
+            
+            ?>
         </div>
     </div>
 
