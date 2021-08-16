@@ -79,10 +79,10 @@
                     </div>
                 </div>
                 <div class="right_images">
-                    <div class="third_slide-image img8">
+                    <div class="third_slide-image img8" onclick="window.location.href = '/catalog/kolenchatye-pod-jomniki'">
                         <span>коленчатые подъемники</span>
                     </div>
-                    <div class="third_slide-image img9">
+                    <div class="third_slide-image img9" onclick="window.location.href = '/catalog/teleskopicheskie-pod-jomniki'">
                         <span>телескопические подъемники</span>
                     </div>
                 </div>
