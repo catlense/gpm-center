@@ -38,8 +38,8 @@ header .main_container {
 header .logo {
   width: 213px;
   height: 61px;
-  background: url(/images/logo.svg);
-  background-size: cover;
+  background: url(/images/logo.jpg) center;
+  background-size: 100%;
 }
 
 header .addresses {
@@ -912,6 +912,13 @@ img {
 
 .imageSwiper .swiper-wrapper .swiper-slide {
   max-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
 }
 
 .product_container {
@@ -920,6 +927,8 @@ img {
   display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
 @media (max-width: 792px) {
@@ -934,6 +943,10 @@ img {
 .product_container .left_images {
   width: 33%;
   position: relative;
+}
+
+.product_container .left_images img {
+  max-width: unset;
 }
 
 @media (max-width: 792px) {
