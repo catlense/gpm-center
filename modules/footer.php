@@ -2,7 +2,6 @@
         <div class="container">
             <div class="footer-column _first">
                 <div class="logo"></div>
-                <p>ООО "Ромашка"</p>
                 <p>© 2021 Все права защищены</p>
             </div>
             <div class="footer-column _second">
