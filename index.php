@@ -112,7 +112,7 @@
             <h1 class="title">Каталог продукции</h1>
             <div class="images">
                 <div class="left_images">
-                    <div class="third_slide-image img1">
+                    <div class="third_slide-image img1" onclick="window.location.hef = '/catalog/nozhnichnye-pod-jomniki';">
                         <span>Ножничные подъемники</span>
                     </div>
                 </div>

@@ -28,7 +28,7 @@
                         <li class="more">
                             Подъёмники
                             <ul>
-                                <li>Ножничные</li>
+                                <li><a href="/catalog/nozhnichnye-pod-jomniki">Ножничные</a></li>
                                 <li><a href="/catalog/kolenchatye-pod-jomniki">Коленчатые</a></li>
                                 <li><a href="/catalog/teleskopicheskie-pod-jomniki">Телескопические</a></li>
                             </ul>

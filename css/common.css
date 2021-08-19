@@ -1020,13 +1020,7 @@ img {
 }
 
 .product_container .left_images img {
-  max-width: unset;
-}
-
-@media (max-width: 792px) {
-  .product_container .left_images {
-    width: 100%;
-  }
+  max-width: 100%;
 }
 
 .product_container .texts {
