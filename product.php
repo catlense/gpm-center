@@ -50,6 +50,19 @@
                 }
                 ?>
             </p>
+            <?php
+            if($p['ost_description']) {
+                foreach($p['ost_description'] as $ostd) {
+    
+                    echo '
+                    <p class="description">
+                        '.$ostd.'
+                    </p>
+                    ';
+                }
+            }
+            
+            ?>
         </div>
     </div>
     <table class="params">

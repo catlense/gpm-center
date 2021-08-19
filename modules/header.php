@@ -20,9 +20,14 @@
                 <span class="link">
                     <div><a href="/catalog">Каталог продукции</a></div>
                     <ul>
-                        <li>Экскаваторы</li>
-                        <li><a href="/catalog/avtokrany">Автокраны</a></li>
-                        <li>Вилочные погрузчики</li>
+                        <li><a href="/catalog/ekskavatory">Экскаваторы</a></li>
+                        <li class="more">
+                            <a href="/catalog/avtokrany">Автокраны</a>
+                            <ul>
+                                <li><a href="/catalog/avtokrany-maz">Автокраны Zoomlion-МАЗ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/catalog/vp">Вилочные погрузчики</a></li>
                         <li>Электроштабелеры</li>
                         <li>Погрузчики для палет</li>
                         <li class="more">

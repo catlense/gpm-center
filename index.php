@@ -120,14 +120,14 @@
                     <div class="third_slide-image img2" onclick="window.location.href = '/catalog/avtokrany'">
                         <span>Автокраны zoomlion</span>
                     </div>
-                    <div class="third_slide-image img3">
+                    <div class="third_slide-image img3" onclick="window.location.href = '/catalog/ekskavatory'">
                         <span>Экскаваторы</span>
                     </div>
                 </div>
             </div>
             <div class="images">
                 <div class="left_images">
-                    <div class="third_slide-image img4">
+                    <div class="third_slide-image img4" onclick="window.location.href='/catalog/avtokrany-maz'">
                         <span>Автокраны Zoomlion-МАЗ</span>
                     </div>
                     <div class="third_slide-image img5">
@@ -137,7 +137,7 @@
                         <div class="third_slide-image img6">
                             <span>Электроштабелеры</span>
                         </div>
-                        <div class="third_slide-image img7">
+                        <div class="third_slide-image img7" onclick="window.location.href = '/catalog/vp';">
                             <span>Вилочные погрузчики</span>
                         </div>
                     </div>
