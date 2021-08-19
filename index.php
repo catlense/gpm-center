@@ -130,7 +130,7 @@
                     <div class="third_slide-image img4" onclick="window.location.href='/catalog/avtokrany-maz'">
                         <span>Автокраны Zoomlion-МАЗ</span>
                     </div>
-                    <div class="third_slide-image img5">
+                    <div class="third_slide-image img5" onclick="window.location.href ='/catalog/palet'">
                         <span>погрузчик для палет</span>
                     </div>
                     <div class="double_images">

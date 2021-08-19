@@ -29,7 +29,7 @@
                         </li>
                         <li><a href="/catalog/vp">Вилочные погрузчики</a></li>
                         <li>Электроштабелеры</li>
-                        <li>Погрузчики для палет</li>
+                        <li><a href="/catalog/palet">Погрузчики для палет</a></li>
                         <li class="more">
                             Подъёмники
                             <ul>
