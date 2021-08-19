@@ -15,13 +15,13 @@
         </div>
         <div class="link-line">
             <div class="container">
-                <a href="/about">О компании</a>
-                <a href="#">Сертификаты</a>
-                <a href="/catalog">
-                    <div header-link="/catalog">Каталог продукции</div>
+                <span class="link"><a href="/about">О компании</a></span>
+                <span class="link"><a href="#">Сертификаты</a></span>
+                <span class="link">
+                    <div><a href="/catalog">Каталог продукции</a></div>
                     <ul>
                         <li>Экскаваторы</li>
-                        <li header-link="/catalog/avtokrany">Автокраны</li>
+                        <li><a href="/catalog/avtokrany">Автокраны</a></li>
                         <li>Вилочные погрузчики</li>
                         <li>Электроштабелеры</li>
                         <li>Погрузчики для палет</li>
@@ -29,14 +29,14 @@
                             Подъёмники
                             <ul>
                                 <li>Ножничные</li>
-                                <li header-link="/catalog/kolenchatye-pod-jomniki">Коленчатые</li>
-                                <li header-link="/catalog/teleskopicheskie-pod-jomniki">Телескопические</li>
+                                <li><a href="/catalog/kolenchatye-pod-jomniki">Коленчатые</a></li>
+                                <li><a href="/catalog/teleskopicheskie-pod-jomniki">Телескопические</a></li>
                             </ul>
                         </li>
                     </ul>
-                </a>
-                <a href="/news">Новости</a>
-                <a href="/contacts">Контакты</a>
+                </span>
+                <span class="link"><a href="/news">Новости</a></span>
+                <span class="link"><a href="/contacts">Контакты</a></span>
             </div>
         </div>
     </header>

@@ -22,6 +22,56 @@ body {
   overflow: hidden;
 }
 
+.slide-content {
+  max-width: 450px;
+  background: rgba(50, 50, 50, 0.9);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 20px 30px;
+  font-size: 30px;
+  line-height: 120%;
+  color: #fff;
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  text-align: right;
+  -webkit-box-shadow: 0 0 20px 0 black;
+          box-shadow: 0 0 20px 0 black;
+}
+
+.slide-content.mini {
+  font-size: 22px;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .slide-content.mini {
+    font-size: 14px;
+    top: 20px;
+  }
+}
+
+.slide-content ul {
+  margin-top: 15px;
+  text-align: left;
+}
+
+@media (max-width: 680px) {
+  .slide-content {
+    right: 15px;
+    left: 15px;
+    font-size: 16px;
+  }
+}
+
+header {
+  background: #d6d6d6;
+}
+
 header .main_container {
   height: 127px;
   display: -webkit-box;
@@ -156,7 +206,7 @@ header .link-line .container {
   }
 }
 
-header .link-line a {
+header .link-line .link {
   display: block;
   text-transform: uppercase;
   color: white;
@@ -166,28 +216,37 @@ header .link-line a {
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
+  cursor: pointer;
 }
 
-header .link-line a:hover {
+header .link-line .link a {
+  text-decoration: none;
+  color: currentColor;
+  z-index: 999999999999999999;
+  display: block;
+  width: 100%;
+}
+
+header .link-line .link:hover {
   background: #eee;
   color: #333;
 }
 
-header .link-line a:hover > ul {
+header .link-line .link:hover > ul {
   display: block;
 }
 
 @media (max-width: 790px) {
-  header .link-line a {
+  header .link-line .link {
     color: #323232;
     width: 100%;
   }
-  header .link-line a:hover ul {
+  header .link-line .link:hover ul {
     display: none;
   }
 }
 
-header .link-line a ul {
+header .link-line .link ul {
   position: absolute;
   width: calc(100% + 30px);
   background: #eee;
@@ -199,7 +258,7 @@ header .link-line a ul {
   z-index: 999999;
 }
 
-header .link-line a ul > li {
+header .link-line .link ul > li {
   height: 50px;
   list-style: none;
   padding-left: 15px;
@@ -211,31 +270,31 @@ header .link-line a ul > li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-header .link-line a ul > li:first-child {
+header .link-line .link ul > li:first-child {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-header .link-line a ul > li.more::before {
+header .link-line .link ul > li.more::before {
   content: "\276F";
   position: absolute;
   right: 15px;
 }
 
-header .link-line a ul > li:hover {
+header .link-line .link ul > li:hover {
   background: #f7f7f7;
 }
 
-header .link-line a ul > li:hover ul {
+header .link-line .link ul > li:hover ul {
   display: block;
 }
 
-header .link-line a ul > li ul {
+header .link-line .link ul > li ul {
   margin-left: calc(100% - 15px);
   margin-top: -64px;
   display: none;
 }
 
-header .link-line a ul > li ul li {
+header .link-line .link ul > li ul li {
   height: 30px;
   line-height: 45px;
 }

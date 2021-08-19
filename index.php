@@ -15,10 +15,74 @@
     <div class="first_slider">
         <div class="swiper-container">
             <div class="swiper-wrapper">    
-                <div class="swiper-slide" style="background: url(/images/slide/1.webp) no-repeat;"></div>
-                <div class="swiper-slide" style="background: url(/images/slide/2.jpg) no-repeat;"></div>
-                <div class="swiper-slide" style="background: url(/images/slide/3.webp) no-repeat;"></div>
-                <div class="swiper-slide" style="background: url(/images/slide/4.webp) no-repeat;"></div>
+                <div class="swiper-slide" style="background: url(/images/slide/1.webp) no-repeat;">
+                    <div class="slide-content">
+                        ООО "ГПМ-Центр" – официальный дилер Zoomlion Havy Industry Science & Technology Co.,Ltd.
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(https://static.tildacdn.com/tild3666-3137-4430-a539-393637616661/20160506082900799.jpg) no-repeat;">
+                    <div class="slide-content">
+                    Zoomlion - крупнейший производитель строительной техники и кранов в мире, штаб-квартира находится в научном парке в Чанше, провинция Хунань. Дата основания 28 Сентября 1992 год. Среднее количество сотрудников - 30 000.
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(/images/slide/2.jpg) no-repeat;">
+                    <div class="slide-content">
+                    Компания Zoomlion - это 18,5% всего рынка строительной техники в мире
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(/images/slide/5.png) no-repeat;">
+                    <div class="slide-content mini">
+                    ZOOMLION занесен в книгу рекордов Гиннесса как производитель:
+<ul>
+<li>
+самого большого в мире гусеничного крана грузоподъёмностью 3200 тонн
+</li>
+<li>
+самого большого автомобильного крана грузоподъемностью 2500 тонн
+</li>
+<li>
+самого большого башенного крана грузоподъемностью 240 тонн
+</li>
+<li>
+самого большого башенного крана по длине стрелы 100 метров
+</li>
+<li>
+самого большого автомобильного бетононасоса с высотой подачи стрелы 101 метр
+</li>
+<li>
+самого большого в мире стационарного бетононасоса с максимальным давлением 400 бар
+</li>
+</ul>
+
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(https://www.gama.com.tr/wp-content/themes/welcome/assets/img/bg/trading.jpg) no-repeat;">
+                    <div class="slide-content">
+                        Благодаря высокому опыту сотрудников ГПМ-Центр, вы любой момент сможете получить грамотную техническую поддержку 24 часа в сутки. 
+                        Вы можете быть уверены в надежности компании и выполнении всех гарантийных обязательств.
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(https://sc02.alicdn.com/kf/H3fa6b2509578415ca78a4d3e1ac8df3aO/237371530/H3fa6b2509578415ca78a4d3e1ac8df3aO.jpg) no-repeat;">
+                    <div class="slide-content">
+                        ZOOMLION производит технику по европейской технологии немецкой компании JOST и LIEBHERR (Germany), а это значит, что вы приобретаете краны европейского качества по доступным ценам и сможете эксплуатировать технику долгий срок, сэкономив на сервисе и комплектующих
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(https://1.bp.blogspot.com/-wwYnVxqJEIQ/VvJACi7tz7I/AAAAAAAAFL4/ljyVbwnLKFYdVE9WoI80s2k1lmjdzp8zw/s1600/Miya%2BForklift%2Bstock.JPG) no-repeat;">
+                    <div class="slide-content">
+                    На вилочные погрузчики Zoomlion предоставляется расширенная гарантия:
+18 месяцев или 2 000 моточасов.
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(https://stnews.ru/uploads/posts/2019-04/15547248121353660.jpg) no-repeat;">
+                    <div class="slide-content">
+                    В данный момент большое количество складской и грузоподъемной техники Zoomlion готово к отгрузке на складе в Москве и Забайкальске.
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(/images/slide/6.jpg) no-repeat;">
+                    <div class="slide-content">
+                    Экскаваторы Zoomlion 2021 года - со склада, по самым интересным ценам.
+                    </div>
+                </div>
             </div>
         </div>
         <div class="swiper-controller">
