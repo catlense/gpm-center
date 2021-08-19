@@ -18,6 +18,42 @@
         padding-right: 30px;
     }
     
+    .post {
+        .title {
+            span {
+                font-size: 14px;
+                color: #929292;
+                font-weight: bold;
+                text-align: center;
+                display: block;
+                margin-bottom: 30px;
+            }
+            width: 100%;
+            background-position: center !important;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center;
+            max-width: 500px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        .swiper-container {
+            height: 500px;
+            margin-bottom: 150px;
+            margin-top: 50px;
+        }
+        .swiper-controller {
+            top: calc(50% - 50px);
+            right: unset;
+            width: 100%;
+            ._next {
+                margin-left: auto;
+            }
+        }
+    }
+    
     .slider {
         overflow: hidden;
     }
@@ -268,27 +304,6 @@
         }
         .swiper {
             height: 100%;
-        }
-        .swiper-controller {
-            position: absolute;
-            right: 30px;
-            z-index: 9;
-            top: calc(100% - 128px);
-            display: flex;
-            .first_slider-button {
-                cursor: pointer;
-                width: 81px;
-                height: 65px;
-                margin-right: 20px;
-                background: rgba(255, 255, 255, .5);
-                text-align: center;
-                font-size: 38px;
-                line-height: 65px;
-                user-select: none;
-            }
-            ._prev {
-                transform: rotate(180deg);
-            }
         }
     }
     
@@ -852,5 +867,27 @@
             font-weight: lighter;
             font-size: 32px;
             text-align: center;
+        }
+    }
+    
+    .swiper-controller {
+        position: absolute;
+        right: 30px;
+        z-index: 9;
+        top: calc(100% - 128px);
+        display: flex;
+        .first_slider-button {
+            cursor: pointer;
+            width: 81px;
+            height: 65px;
+            margin-right: 20px;
+            background: rgba(255, 255, 255, .5);
+            text-align: center;
+            font-size: 38px;
+            line-height: 65px;
+            user-select: none;
+        }
+        ._prev {
+            transform: rotate(180deg);
         }
     }
