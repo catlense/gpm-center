@@ -2388,7 +2388,7 @@ $products = [
         'title'=>'Дизельный погрузчик FD35Z',
         'link'=>'vp/FD35Z',
         'category'=>'vp',
-        'main_img'=>'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg',
+        'main_img'=>'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg\' style="width: 80%;margin-top: 55px;"',
         'images'=>[
             'https://static.tildacdn.com/tild3263-3264-4365-a137-633539346338/1instrument.jpg',
             'https://static.tildacdn.com/tild3566-3539-4332-a265-313662386536/2steering_and_valves.jpg',
@@ -2454,7 +2454,7 @@ $products = [
         'title'=>'Дизельный погрузчик FD38Z',
         'link'=>'vp/FD38Z',
         'category'=>'vp',
-        'main_img'=>'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg',
+        'main_img'=>'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg\' style="width: 80%;margin-top: 55px;"',
         'images'=>[
             'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg',
             'https://static.tildacdn.com/tild3263-3264-4365-a137-633539346338/1instrument.jpg',
@@ -3023,6 +3023,10 @@ $categories = [
     [
         'title'=>'Коленчатые подъемники',
         'link'=>'kolenchatye-pod-jomniki'
+    ],
+    [
+        'title'=>'',
+        'link'=>''
     ],
     [
         'title'=>'Ножничные подъемники',

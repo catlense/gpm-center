@@ -15,19 +15,26 @@
         </div>
         <div class="link-line">
             <div class="container">
-                <span class="link"><a href="/about">О компании</a></span>
-                <span class="link"><a href="#">Сертификаты</a></span>
+                <span class="link"><a href="/#about">О компании</a></span>
+                <span class="link"><a href="/#sertificates">Сертификаты</a></span>
                 <span class="link">
-                    <div><a href="/catalog">Каталог продукции</a></div>
+                    <div><a href="/#catalog">Каталог продукции</a></div>
                     <ul>
                         <li><a href="/catalog/ekskavatory">Экскаваторы</a></li>
                         <li class="more">
-                            <a href="/catalog/avtokrany">Автокраны</a>
+                            Автокраны
                             <ul>
+                                <li><a href="/catalog/avtokrany">Автокраны Zoomlion</a></li>
                                 <li><a href="/catalog/avtokrany-maz">Автокраны Zoomlion-МАЗ</a></li>
                             </ul>
                         </li>
-                        <li><a href="/catalog/vp">Вилочные погрузчики</a></li>
+                        <li class="more">
+                            <a href="/catalog/vp">Вилочные погрузчики</a>
+                            <ul>
+                                <li><a href="/catalog/vp">Дизельные погрузчики</a></li>
+                                <li><a href="/catalog/vp">Электрические погрузчики</a></li>
+                            </ul>
+                        </li>
                         <li>Электроштабелеры</li>
                         <li><a href="/catalog/palet">Погрузчики для палет</a></li>
                         <li class="more">

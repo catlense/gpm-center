@@ -9,3 +9,5 @@ RewriteRule catalog catalog.php [L,QSA]
 
 RewriteRule news news.php
 RewriteRule post post.php
+
+RewriteRule contacts contacts.php

@@ -22,7 +22,7 @@
                 </div>
                 <div class="swiper-slide" style="background: url(https://static.tildacdn.com/tild3666-3137-4430-a539-393637616661/20160506082900799.jpg) no-repeat;">
                     <div class="slide-content">
-                    Zoomlion - крупнейший производитель строительной техники и кранов в мире, штаб-квартира находится в научном парке в Чанше, провинция Хунань. Дата основания 28 Сентября 1992 год. Среднее количество сотрудников - 30 000.
+                    Zoomlion - крупнейший производитель строительной техники и кранов в мире, штаб-квартира находится в научном парке в Чанше, провинция Хунань. Дата основания 28 Сентября 1992 год. Среднее количество сотрудников - <span style="white-space: nowrap;">30 000</span>.
                     </div>
                 </div>
                 <div class="swiper-slide" style="background: url(/images/slide/2.jpg) no-repeat;">
@@ -58,13 +58,13 @@
                 </div>
                 <div class="swiper-slide" style="background: url(https://www.gama.com.tr/wp-content/themes/welcome/assets/img/bg/trading.jpg) no-repeat;">
                     <div class="slide-content">
-                        Благодаря высокому опыту сотрудников ГПМ-Центр, вы любой момент сможете получить грамотную техническую поддержку 24 часа в сутки. 
+                        Благодаря высокому опыту сотрудников ГПМ-Центр, Вы в любой момент сможете получить грамотную техническую поддержку 24 часа в сутки. 
                         Вы можете быть уверены в надежности компании и выполнении всех гарантийных обязательств.
                     </div>
                 </div>
                 <div class="swiper-slide" style="background: url(https://sc02.alicdn.com/kf/H3fa6b2509578415ca78a4d3e1ac8df3aO/237371530/H3fa6b2509578415ca78a4d3e1ac8df3aO.jpg) no-repeat;">
                     <div class="slide-content">
-                        ZOOMLION производит технику по европейской технологии немецкой компании JOST и LIEBHERR (Germany), а это значит, что вы приобретаете краны европейского качества по доступным ценам и сможете эксплуатировать технику долгий срок, сэкономив на сервисе и комплектующих
+                        ZOOMLION производит технику по европейской технологии немецкой компании JOST и LIEBHERR (Germany), а это значит, что Вы приобретаете краны европейского качества по доступным ценам и сможете эксплуатировать технику долгий срок, сэкономив на сервисе и комплектующих
                     </div>
                 </div>
                 <div class="swiper-slide" style="background: url(https://1.bp.blogspot.com/-wwYnVxqJEIQ/VvJACi7tz7I/AAAAAAAAFL4/ljyVbwnLKFYdVE9WoI80s2k1lmjdzp8zw/s1600/Miya%2BForklift%2Bstock.JPG) no-repeat;">
@@ -92,7 +92,7 @@
     </div>
 
     <div class="second_slide">
-        <div class="container">
+        <div class="container" id="about">
             <h1 class="title">О компании</h1>
             <div class="texts">
                 <div class="lt">
@@ -107,7 +107,7 @@
         </div>
     </div>
 
-    <div class="third_slide">
+    <div class="third_slide" id="catalog">
         <div class="container">
             <h1 class="title">Каталог продукции</h1>
             <div class="images">
@@ -154,7 +154,7 @@
         </div>
     </div>
 
-    <div class="fourth_slide">
+    <div class="fourth_slide" id="sertificates">
         <div class="container">
             <h1 class="title">
                 Сертификаты
