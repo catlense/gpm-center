@@ -35,7 +35,7 @@
                                 <li><a href="/catalog/vp">Электрические погрузчики</a></li>
                             </ul>
                         </li>
-                        <li>Электроштабелеры</li>
+                        <li><a href="/catalog/es">Электроштабелеры</a></li>
                         <li><a href="/catalog/palet">Погрузчики для палет</a></li>
                         <li class="more">
                             Подъёмники

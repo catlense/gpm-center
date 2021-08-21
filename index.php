@@ -134,7 +134,7 @@
                         <span>погрузчик для палет</span>
                     </div>
                     <div class="double_images">
-                        <div class="third_slide-image img6">
+                        <div class="third_slide-image img6" onclick="window.location.href = '/catalog/es';">
                             <span>Электроштабелеры</span>
                         </div>
                         <div class="third_slide-image img7" onclick="window.location.href = '/catalog/vp';">

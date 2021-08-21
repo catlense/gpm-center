@@ -679,9 +679,10 @@
         .product {
             max-width: 376px;
             margin-bottom: 80px;
+            min-width: 30%;
             img {
-                width: 100%;
-                max-height: 270px;
+                max-width: 100%;
+                max-height: 223px;
             }
             &.none {
                 img {
