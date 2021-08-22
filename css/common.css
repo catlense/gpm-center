@@ -132,7 +132,7 @@ header .main_container {
 
 header .logo {
   width: 213px;
-  height: 61px;
+  height: 127px;
   background: url(/images/logo.jpg) center;
   background-size: 100%;
 }
@@ -179,7 +179,7 @@ header .number {
 header button.callback {
   width: auto;
   max-width: 275px;
-  background: #BAF207;
+  background: #baf207;
   border: none;
   font-size: 16px;
   padding: 16px 32px;
@@ -326,7 +326,7 @@ h1.title {
   width: 100%;
   padding-top: 120px;
   padding-bottom: 120px;
-  background: #FBFBFB;
+  background: #fbfbfb;
 }
 
 .third_slide .images {
@@ -588,7 +588,7 @@ h1.title {
 }
 
 .swiper-button-disabled {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 footer {
@@ -823,7 +823,7 @@ footer .footer-column._second .second-col {
 }
 
 .products .product.none img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .products .product p.title {
@@ -911,7 +911,7 @@ img {
   color: #363840;
   font-size: 36px;
   font-weight: 400;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .product_container .texts p {
@@ -1226,5 +1226,88 @@ table.params tr:nth-child(odd) {
 .link-line .link ul > li ul li {
   height: 30px;
   line-height: 45px;
+}
+
+.backcall {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99999999999999999999999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+}
+
+.backcall:not(.active) {
+  -webkit-transform: translateX(1000%);
+          transform: translateX(1000%);
+}
+
+.backcall .content {
+  width: 450px;
+  max-width: calc(100% - 20px);
+  padding: 30px;
+  background: #fff;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.backcall .content .close-popup {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.backcall .content p {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.backcall .content input {
+  height: 40px;
+  width: calc(100% - 15px);
+  border-radius: 5px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.backcall .content button {
+  height: 40px;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background: #6464ff;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.backcall .content button:active {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
 }
 /*# sourceMappingURL=common.css.map */
