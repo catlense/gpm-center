@@ -13,6 +13,7 @@
                 <span class="tl"></span>
             </div>
         </div>
+    </header>
         <div class="link-line">
             <div class="container">
                 <span class="link"><a href="/#about">О компании</a></span>
@@ -31,8 +32,8 @@
                         <li class="more">
                             <a href="/catalog/vp">Вилочные погрузчики</a>
                             <ul>
-                                <li><a href="/catalog/vp">Дизельные погрузчики</a></li>
-                                <li><a href="/catalog/vp">Электрические погрузчики</a></li>
+                                <li><a href="/catalog/vp-diz">Дизельные погрузчики</a></li>
+                                <li><a href="/catalog/vp-el">Электрические погрузчики</a></li>
                             </ul>
                         </li>
                         <li><a href="/catalog/es">Электроштабелеры</a></li>
@@ -51,4 +52,3 @@
                 <span class="link"><a href="/contacts">Контакты</a></span>
             </div>
         </div>
-    </header>

@@ -67,6 +67,25 @@
             }
             
             ?>
+            <? if($_GET['link'] == 'vp'):?>
+                    <div class='product' onclick='window.location.href = `/catalog/vp-diz`;'>
+                        <img src='https://static.tildacdn.com/tild3033-6531-4431-b333-353961333832/-3.jpg' alt=''>
+                        <p class='title'>Дизельные погрузчики</p>
+                    </div>
+                    <div class='product' onclick='window.location.href = `/catalog/vp-el`;'>
+                        <img src='https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg' alt=''>
+                        <p class='title'>Электрические погрузчики</p>
+                    </div>
+                <style>
+                    .products {
+                        justify-content: space-around;
+                    }
+                    .product {
+                        width: 50%;
+                        text-align: center;
+                    }
+                </style>
+            <? endif; ?>
         </div>
     </div>
 

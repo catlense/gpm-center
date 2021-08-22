@@ -573,6 +573,15 @@ $products = [
         ]
     ],
     [
+        'title'=>'',
+        'category'=>'teleskopicheskie-pod-jomniki',
+        'link'=>'teleskopicheskie-pod-jomniki/1',
+        'main_img'=>'',
+        'images'=>[],
+        'params'=>[],
+        'description'=>[]
+    ],
+    [
         'title'=>'ZA14JE',
         'link'=>'kolenchatye-pod-jomniki/za14je',
         'category'=>'kolenchatye-pod-jomniki',
@@ -2181,8 +2190,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD15Z',
-        'link'=>'vp/FD15Z',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD15Z',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3033-6531-4431-b333-353961333832/-3.jpg',
         'copy'=>'page',
         'images'=>[
@@ -2262,8 +2271,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD18Z',
-        'link'=>'vp/FD18Z',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD18Z',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3031-6536-4431-b533-633664316538/FD15Z18Z-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild3031-6536-4431-b533-633664316538/FD15Z18Z-1.jpg'
@@ -2317,8 +2326,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD30Z',
-        'link'=>'vp/FD30Z',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD30Z',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3062-6533-4462-b365-663930396138/003.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild3062-6533-4462-b365-663930396138/003.jpg'
@@ -2386,8 +2395,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD35Z',
-        'link'=>'vp/FD35Z',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD35Z',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg\' style="width: 80%;margin-top: 55px;"',
         'images'=>[
             'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg',
@@ -2453,8 +2462,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD38Z',
-        'link'=>'vp/FD38Z',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD38Z',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg\' style="width: 80%;margin-top: 55px;"',
         'images'=>[
             'https://static.tildacdn.com/tild3031-3566-4832-a165-613336623539/30.jpg',
@@ -2520,8 +2529,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD50Z',
-        'link'=>'vp/FD50Z',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD50Z',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg',
@@ -2595,8 +2604,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD60Z',
-        'link'=>'vp/FD60Z',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD60Z',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6466-3531-4066-b636-623339386539/FD50-70Z-1.jpg',
@@ -2670,8 +2679,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD100',
-        'link'=>'vp/FD100',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD100',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3466-6362-4636-b965-356366333531/Screenshot_1.png',
         'images'=>[
             'https://static.tildacdn.com/tild3466-6362-4636-b965-356366333531/Screenshot_1.png',
@@ -2740,8 +2749,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD80S',
-        'link'=>'vp/FD80S',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD80S',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3139-6138-4335-b266-646362353535/FD70S-80S-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild3139-6138-4335-b266-646362353535/FD70S-80S-1.jpg',
@@ -2817,8 +2826,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD80J',
-        'link'=>'vp/FD80J',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD80J',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3139-6138-4335-b266-646362353535/FD70S-80S-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild3139-6138-4335-b266-646362353535/FD70S-80S-1.jpg',
@@ -2895,8 +2904,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD40H',
-        'link'=>'vp/FD40H',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD40H',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6566-3635-4034-b335-373063366132/FD45H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6566-3635-4034-b335-373063366132/FD45H-1.jpg',
@@ -2968,8 +2977,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD20H',
-        'link'=>'vp/FD20H',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD20H',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
@@ -3044,8 +3053,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD25H',
-        'link'=>'vp/FD25H',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD25H',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
@@ -3120,8 +3129,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD30H',
-        'link'=>'vp/FD30H',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD30H',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
@@ -3196,8 +3205,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD35H',
-        'link'=>'vp/FD35H',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD35H',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
@@ -3272,8 +3281,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD45H',
-        'link'=>'vp/FD45H',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD45H',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
@@ -3348,8 +3357,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FD50H',
-        'link'=>'vp/FD50H',
-        'category'=>'vp',
+        'link'=>'vp-diz/FD50H',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6363-3031-4232-b732-323033326266/-FD20H-35H-1.jpg',
@@ -3424,8 +3433,8 @@ $products = [
     ],
     [
         'title'=>'Дизельный погрузчик FDEx35 (взрывозащищенный тип)',
-        'link'=>'vp/FDEx35',
-        'category'=>'vp',
+        'link'=>'vp-diz/FDEx35',
+        'category'=>'vp-diz',
         'main_img'=>'https://static.tildacdn.com/tild3561-3332-4639-b561-373862613961/FDEX35_compressed-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild3561-3332-4639-b561-373862613961/FDEX35_compressed-1.jpg',
@@ -3493,8 +3502,8 @@ $products = [
     ],
     [
         'title'=>'Электрический погрузчик FB2OH-B1',
-        'category'=>'vp',
-        'link'=>'vp/FB2OH-B1',
+        'category'=>'vp-el',
+        'link'=>'vp-el/FB2OH-B1',
         'main_img'=>'https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg',
@@ -3562,8 +3571,8 @@ $products = [
     ],
     [
         'title'=>'Электрический погрузчик FB20H-J1',
-        'category'=>'vp',
-        'link'=>'vp/FB20H-J1',
+        'category'=>'vp-el',
+        'link'=>'vp-el/FB20H-J1',
         'main_img'=>'https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg',
@@ -3632,8 +3641,8 @@ $products = [
     ],
     [
         'title'=>'Электрический погрузчик FB25H-B1',
-        'category'=>'vp',
-        'link'=>'vp/FB25H-B1',
+        'category'=>'vp-el',
+        'link'=>'vp-el/FB25H-B1',
         'main_img'=>'https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg',
@@ -3701,8 +3710,8 @@ $products = [
     ],
     [
         'title'=>'Электрический погрузчик FB25H-J1',
-        'category'=>'vp',
-        'link'=>'vp/FB25H-J1',
+        'category'=>'vp-el',
+        'link'=>'vp-el/FB25H-J1',
         'main_img'=>'https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg',
         'images'=>[
             'https://static.tildacdn.com/tild6465-6562-4238-a632-313161313636/--FB20H-1.jpg',
@@ -4602,6 +4611,14 @@ $categories = [
     [
         'title'=>'Вилочные погрузчики',
         'link'=>'vp'
+    ],
+    [
+        'title'=>'Дизельные погрузчики',
+        'link'=>'vp-diz'
+    ],
+    [
+        'title'=>'Электрические погрузчики',
+        'link'=>'vp-el'
     ],
     [
         'title'=>'Автокраны zoomlion-маз',

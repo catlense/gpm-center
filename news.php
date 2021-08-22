@@ -19,9 +19,9 @@
                     <img src="https://thumb.tildacdn.com/tild3964-3831-4536-a661-323734666264/-/cover/190x150/center/center/-/format/webp/IMG_2572.jpg" alt="">
                 </div>
                 <div class="text">
-                    <p class="title">Электроштабелер DB15E на складе в Москве</p>
-                    <p class="description">На Московские склады компании поступили электрические штабелеры DB15E.</p>
-                    <p class="date">09.07.2021</p>
+                    <p class="title">На московском складе в Химках большое количество кранов и экскаваторов.</p>
+                    <p class="description">Так же ожидаются новые поступления в ближайшее время.</p>
+                    <p class="date">10.08.2021</p>
                 </div>
             </div>
         </div>

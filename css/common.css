@@ -108,6 +108,15 @@ header {
   background: #d6d6d6;
 }
 
+@media (max-width: 780px) {
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+}
+
 header .main_container {
   height: 127px;
   display: -webkit-box;
@@ -193,146 +202,6 @@ header button.callback:hover {
 
 header button.callback:active {
   background: #a4d309;
-}
-
-header .link-line {
-  height: 63px;
-  background: #808080;
-  width: 100%;
-  -webkit-transition: height 0.4s;
-  transition: height 0.4s;
-}
-
-@media (max-width: 790px) {
-  header .link-line {
-    height: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background: white;
-    overflow: hidden;
-  }
-  header .link-line.active {
-    height: 320px !important;
-    border-bottom: 1px solid #eee;
-  }
-}
-
-header .link-line .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 63px;
-}
-
-@media (max-width: 790px) {
-  header .link-line .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 320px;
-  }
-}
-
-header .link-line .link {
-  display: block;
-  text-transform: uppercase;
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 63px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  cursor: pointer;
-}
-
-header .link-line .link a {
-  text-decoration: none;
-  color: currentColor;
-  z-index: 999999999999999999;
-  display: block;
-  width: 100%;
-}
-
-header .link-line .link:hover {
-  background: #eee;
-  color: #333;
-}
-
-header .link-line .link:hover > ul {
-  display: block;
-}
-
-@media (max-width: 790px) {
-  header .link-line .link {
-    color: #323232;
-    width: 100%;
-  }
-  header .link-line .link:hover ul {
-    display: none;
-  }
-}
-
-header .link-line .link ul {
-  position: absolute;
-  width: calc(100% + 30px);
-  background: #eee;
-  color: #333;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: -15px;
-  display: none;
-  z-index: 999999;
-}
-
-header .link-line .link ul > li {
-  height: 50px;
-  list-style: none;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: -15px;
-  padding-bottom: 15px;
-  width: 100%;
-  position: relative;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-header .link-line .link ul > li:first-child {
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-header .link-line .link ul > li.more::before {
-  content: "\276F";
-  position: absolute;
-  right: 15px;
-}
-
-header .link-line .link ul > li:hover {
-  background: #f7f7f7;
-}
-
-header .link-line .link ul > li:hover ul {
-  display: block;
-}
-
-header .link-line .link ul > li ul {
-  margin-left: calc(100% - 15px);
-  margin-top: -64px;
-  display: none;
-}
-
-header .link-line .link ul > li ul li {
-  height: 30px;
-  line-height: 45px;
 }
 
 header .openMenu {
@@ -1213,5 +1082,149 @@ table.params tr:nth-child(odd) {
 .swiper-controller ._prev {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.link-line {
+  height: 63px;
+  background: #808080;
+  width: 100%;
+  -webkit-transition: height 0.4s;
+  transition: height 0.4s;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+@media (max-width: 790px) {
+  .link-line {
+    height: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: white;
+    overflow: hidden;
+  }
+  .link-line.active {
+    height: 320px !important;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.link-line .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 63px;
+}
+
+@media (max-width: 790px) {
+  .link-line .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 320px;
+  }
+}
+
+.link-line .link {
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 63px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.link-line .link a {
+  text-decoration: none;
+  color: currentColor;
+  z-index: 999999999999999999;
+  display: block;
+  width: 100%;
+}
+
+.link-line .link:hover {
+  background: #eee;
+  color: #333;
+}
+
+.link-line .link:hover > ul {
+  display: block;
+}
+
+@media (max-width: 790px) {
+  .link-line .link {
+    color: #323232;
+    width: 100%;
+  }
+  .link-line .link:hover ul {
+    display: none;
+  }
+}
+
+.link-line .link ul {
+  position: absolute;
+  width: calc(100% + 30px);
+  background: #eee;
+  color: #333;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: -15px;
+  display: none;
+  z-index: 999999;
+}
+
+.link-line .link ul > li {
+  height: 50px;
+  list-style: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: -15px;
+  padding-bottom: 15px;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.link-line .link ul > li:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.link-line .link ul > li.more::before {
+  content: "\276F";
+  position: absolute;
+  right: 15px;
+}
+
+.link-line .link ul > li:hover {
+  background: #f7f7f7;
+}
+
+.link-line .link ul > li:hover ul {
+  display: block;
+}
+
+.link-line .link ul > li ul {
+  margin-left: calc(100% - 15px);
+  margin-top: -64px;
+  display: none;
+}
+
+.link-line .link ul > li ul li {
+  height: 30px;
+  line-height: 45px;
 }
 /*# sourceMappingURL=common.css.map */
