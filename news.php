@@ -16,7 +16,7 @@
         <div class="newsList">
             <div class="newsBlock" onclick="window.location.href = '/post?id=1'">
                 <div class="img">
-                    <img src="https://thumb.tildacdn.com/tild3964-3831-4536-a661-323734666264/-/cover/190x150/center/center/-/format/webp/IMG_2572.jpg" alt="">
+                    <img src="/images/news_avatar.jpg" alt="">
                 </div>
                 <div class="text">
                     <p class="title">На московском складе в Химках большое количество кранов и экскаваторов.</p>

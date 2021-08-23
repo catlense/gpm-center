@@ -60,7 +60,8 @@
         <form method="POST">
             <input type="text" placeholder="Ваше имя" class="backcall_name">
             <input type="text" placeholder="Ваш телефон *" required class="backcall_phone">
-            <input type="text" placeholder="Ваш вопрос *" required class="backcall_quest">
+            <input type="email" placeholder="Ваша почта" class="backcall_mail">
+            <input type="text" placeholder="Ваш вопрос" class="backcall_quest">
             <button class="backcall_send">Отправить</button>
         </form>
         <span class="status"></span>
@@ -78,6 +79,7 @@
     let callback = document.querySelector('.callback')
     let name = document.querySelector('.backcall_name')
     let phone = document.querySelector('.backcall_phone')
+    let mail = document.querySelector('.backcall_mail')
     let quest = document.querySelector('.backcall_quest')
     callback.onclick = () => {
         document.querySelector('.backcall').classList.add('active')
@@ -88,14 +90,11 @@
         document.body.style.overflow = 'auto'
     }
     document.querySelector('.backcall_send').onclick = () => {
-        if(phone.value == '' || quest.value == '') return
+        if(phone.value == '') return
         if(name.value == '') name.value = '-'
-        let message = `
-        Имя: ${name.value}\n
-        Телефон: ${phone.value}\n
-        Вопрос: ${quest.value}
-        `
-        fetch(`/modules/tg.php?name=${name.value}&phone=${phone.value}&quest=${quest.value}`)
+        if(quest.value == '') quest.value = '-'
+        if(mail.value == '') mail.value = '-'
+        fetch(`/modules/tg.php?name=${name.value}&phone=${phone.value}&mail=${mail.value}&quest=${quest.value}`)
         document.querySelector('.status').innerText = 'Звонок заказан, мы Вам скоро перезвоним'
         return false
     }
