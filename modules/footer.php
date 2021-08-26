@@ -7,17 +7,17 @@
             <div class="footer-column _second">
                 <div class="first-col">
                     <a href="/catalog" class="title">Продукция</a>
-                    <a href="#">Вилочные погрузчики</a>
-                    <a href="#">Электроштабелеры</a>
-                    <a href="#">Погрузчики для палет</a>
-                    <a href="#">Ножничные подъёмники</a>
+                    <a href="/catalog/vp">Вилочные погрузчики</a>
+                    <a href="/catalog/es">Электроштабелеры</a>
+                    <a href="/catalog/palet">Погрузчики для палет</a>
+                    <a href="/catalog/nozhnichnye-pod-jomniki">Ножничные подъёмники</a>
                 </div>
                 <div class="second-col">
-                    <a href="#">коленчатые подъёмники</a>
-                    <a href="#">телескопический подъёмники</a>
-                    <a href="#">Экскаваторы</a>
-                    <a href="#">Автокраны Zoomlion-маз</a>
-                    <a href="#">Автокраны Zoomlion</a>
+                    <a href="/catalog/kolenchatye-pod-jomniki">Коленчатые подъёмники</a>
+                    <a href="/catalog/teleskopicheskie-pod-jomniki">Телескопический подъёмники</a>
+                    <a href="/catalog/ekskavatory">Экскаваторы</a>
+                    <a href="/catalog/avtokrany-maz">Автокраны Zoomlion-маз</a>
+                    <a href="/catalog/avtokrany">Автокраны Zoomlion</a>
                 </div>
             </div>
             <div class="footer-column _third">
